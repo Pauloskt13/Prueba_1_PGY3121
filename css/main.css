@@ -10,10 +10,18 @@ h5{
     color:black;
 }
 
+h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+
+}
+
 
 .card{
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 0px;
 }
 
 .carousel-inner {
@@ -25,14 +33,17 @@ h5{
      display:block;
      margin:auto;
 
-   
 
 }
 
 .carousel-inner img {
     display:block;
      margin:auto;
-   
+
+}
+
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
 
 }
 
