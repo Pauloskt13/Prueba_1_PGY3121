@@ -7,26 +7,26 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="icon" href="img/logo.jpg">
+    <link rel="icon" href="img/logo.jpg" href="index.html">
     <link href="css/main.css" rel="stylesheet">
     <title> Inicio - Cheems Market</title>
   </head>
   <body class="conteimner fluid" background="img/background_page.jpg">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--Encabezado-->
-    <header class="conteiner-fluid b bg-info d-flex justify-content-center">
-        <p class="text-secondary mb-0 p-2 fs-6"><strong>Registrate</strong></p>
-        <div class="topnav p-1">
-            <form action="/action_page.php">
-              <input class="text-center type="text" placeholder="Usuario" name="username">
-              <input class="text-center "type="password" placeholder="Contraseña" name="psw">
-              <button type="button" class="btn btn-success p-1 mb-1">Ingresar</button>
-            </form>
-          </div>
+    <header class="conteiner-fluid b bg-info d-flex justify-content-center  ">
+      <p class="text-secondary mb-0 p-2 fs-6"><strong>Registrate <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM0 8a8 8 0 1116 0A8 8 0 010 8zm11.78-1.72a.75.75 0 00-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l4.5-4.5z"></path></svg></strong></p>
+      <div class="topnav p-1">
+          <form action="">
+            <input class="text-center type="text" placeholder="Usuario" name="username">
+            <input class="text-center "type="password" placeholder="Contraseña" name="psw">
+            <button type="button" class="btn btn-success p-1 mb-1">Ingresar</button>
+          </form>
         </div>
-    </header>
+      </header>
+  
     <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top id="menu" scr="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 "menu" scr="">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
               <img src="img/logo.jpg" href="index.html" width="40px" height="40px" class="rounded-pill"> 
@@ -60,27 +60,25 @@
           </div>
         </div>
       </nav>
+      
+      
 
       <!--CARROUSEL-->
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+       
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="img/nosotros_02.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Nosotros</h5>
+              <p>Somos una tienda sin fines de lucro, el cual el total de las ventas las donamos a fundaciones de animalitos</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="img/perro_gato_tienda_01.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>Tienda</h5>
+              <p>Todo los accesorios que necesites para tu mascota </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -106,37 +104,91 @@
           <span class="visually">Siguiente</span>
         </button>
       </div>
+      <br>
+
       <!--CARDS-->
-      <div class="card" style="width: 18rem;">
-        <img src="img/bandana_01.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Bandana Perruna</h5>
-          <p class="card-text">Bandana para perros.</p>
+      <h1 class="display-5 bg-light text-center text-success"><strong class="justify-content-center">Novedades</strong> </h1>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/bandana_01.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bandana Perruna</h5>
+              <p class="card-text"><small>Bandana para perros</small></p>
+              <p class="card-text"><small>Stock Disponible <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM0 8a8 8 0 1116 0A8 8 0 010 8zm11.78-1.72a.75.75 0 00-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l4.5-4.5z"></path></svg></small></p>
+              <a class="btn btn-success btn-lg" href="nosotros" role="button">Ir a Tienda</a>
+              </p>
+            </div>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Talla: XS - S - M - L - XL</li>
-          <li class="list-group-item">Stock: Disponible</li>
-          <li class="list-group-item">Precio : $4.990</li>
-        </ul>
-        <div class="card-body">
-          <a href="tienda.hmtl" class="card-link">Ir a Tienda</a>
+        <div class="col">
+          <div class="card">
+            <img src="img/fundacion_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nueva Fundación</h5>
+              <p class="card-text">Nos hemos hecho amigos de una nueva fundación, la cual recibira
+                parte de nuestras ganancias, las cuales iran en ayuda de compra de alimentos para animales
+              en codicion de calle. Haz tu aporte voluntario en la sección Donaciones, muchos animalitos te lo agradeceran.
+              <br>
+              <a href="#" class="card-link">Donaciones</a> </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/nosotros_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sobre Nosotros </h5>
+              <p class="card-text">Somos una empresa sin fines de lucros , que con nuestras ganancias ayudamos a fundaciones 
+                animalistas, con el objetivo de que puedan tener los recursos para rescatar y mantener aniamles de situación de calle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/donaciones_02.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">¿Quieres hacer un aporte voluntario?</h5>
+              <p class="card-text">Acá estan nuestros datos:
+                <ol>Banco Estado</ol>
+                <ol>Cuenta Rut</ol>
+                <ol>18.223.134-4</ol>
+                <ol>cheemsmarket@gmail.com</ol>
+
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="jumbotron bg-light">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+      
       </div>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.077690870305!2d-70.65978848487063!3d-33.44728238077488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c507f91be917%3A0xcfac72a68dd4b986!2sDuoc%20UC%20-%20Sede%20Padre%20Alonso%20de%20Ovalle!5e0!3m2!1ses!2scl!4v1649350072384!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <br>
+
+      <div class="card text-center">
+        <div class="card-header">
+          Actulizaciones
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Ultimas Alianzas</h5>
+          <p class="card-text">Fundacion Unidad de Protección Animal</p>
+          <a href="#" class="btn btn-primary">Ir Donaciones</a>
+        </div>
+        <div class="card-footer text-muted">
+          Actualizado hace 1 día
+        </div>
+      </div>
+      <br>
+      <!--UBICACION-->
+    <h1 class="display-5 bg-light text-center text-success"><strong class="justify-content-center">Encuéntranos</strong> </h1>
+      <br>
+    <center>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.077690870305!2d-70.65978848487063!3d-33.44728238077488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c507f91be917%3A0xcfac72a68dd4b986!2sDuoc%20UC%20-%20Sede%20Padre%20Alonso%20de%20Ovalle!5e0!3m2!1ses!2scl!4v1649350072384!5m2!1ses!2scl" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
       
       <!--FOOTER-->
-      <footer class="bg-light text-center blank mx-2">
+      <footer class="bg-light text-center blank mx-2 ">
         <div class="container p-4 pb-0">
           <section class="">
             <form action="">
@@ -164,7 +216,7 @@
         </div>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2022 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">Cheems MArket</a>
+          <a class="text-blue" href="https://mdbootstrap.com/">Cheems Market</a>
         </div>
       </footer>
       

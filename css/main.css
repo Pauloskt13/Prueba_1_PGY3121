@@ -5,4 +5,34 @@ footer {
     width: 100%;
 }
 
+h5{
+    font-weight:bold;
+    color:black;
+}
+
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 70%;
+    height: 50%;
+     display:block;
+     margin:auto;
+
+   
+
+}
+
+.carousel-inner img {
+    display:block;
+     margin:auto;
+   
+
+}
 
