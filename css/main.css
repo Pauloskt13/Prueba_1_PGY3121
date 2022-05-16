@@ -17,6 +17,10 @@ h1{
 
 }
 
+h2{
+    font-weight:bold;
+    color:red;
+}
 
 .card{
     margin-left: 20px;
@@ -39,6 +43,7 @@ h1{
 .carousel-inner img {
     display:block;
      margin:auto;
+     margin-top: 10%;
 
 }
 
@@ -46,4 +51,5 @@ h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
 
 }
+
 
